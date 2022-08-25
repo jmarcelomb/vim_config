@@ -1,0 +1,104 @@
+"vim.easymotion": true,
+    "vim.surround": true,
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "<C-x>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "d"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "<C-x>"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "d"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        }
+    ],
+    "vim.leader": ",",
+    "vim.disableExtension": true,
